@@ -1,0 +1,41 @@
+import java.util.ArrayList;
+import java.util.Scanner;
+import java.io.*;
+import java.io.BufferedWriter;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
+
+public class BaseClass {
+
+	public static void main(String[] args) throws IOException {
+		Scanner scanner = new Scanner( System.in);
+		ArrayList <Double> list = new ArrayList<>();
+		BufferedWriter writer = new BufferedWriter(new FileWriter("C:\\programs\\output.txt"));
+		for(int i = 0; i <=4; i++){
+			System.out.print("Sales data "+(i+1)+" >>");
+			double tempDub = (scanner.nextDouble());
+			if(tempDub<=-1){
+			while(tempDub <= -1){
+				System.out.print("INCORRECT VALUE Sales data "+(i+1)+" >>");
+				tempDub = (scanner.nextDouble());
+			}
+			}
+			else{
+				list.add(tempDub);
+			}
+		}
+		writer.write(list.indexOf(0));	//1
+		writer.newLine();
+		writer.write("CAT");	//2
+		writer.newLine();
+		writer.write("DOG");	//3
+		writer.newLine();
+		writer.write("BIRD");	//4
+		writer.newLine();
+		writer.write("CAT");	//5
+		writer.close();
+
+	}
+
+}

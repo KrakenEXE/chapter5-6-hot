@@ -1,0 +1,18 @@
+
+public class library {
+	
+	private String name, publisherDate, author;
+	
+	public library(String book, name)
+	
+	
+	public static void main(String[] args) {
+		
+		
+
+	}
+
+}
+class book {
+	private String book, name;
+}

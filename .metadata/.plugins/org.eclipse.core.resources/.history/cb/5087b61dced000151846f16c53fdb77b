@@ -1,0 +1,16 @@
+import java.io.IOException;
+
+public class Library {
+
+private String book;
+private String name;
+	
+	public static void main(String[] args) {
+	
+		Book newbook = new Book("A Million Dollar Title", "Mr Author", "Mr Publisher");
+		
+		System.out.println(newbook.toString());
+		
+	}
+	
+}

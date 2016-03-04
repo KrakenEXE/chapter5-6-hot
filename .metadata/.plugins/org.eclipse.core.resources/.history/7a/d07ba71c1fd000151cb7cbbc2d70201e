@@ -1,0 +1,11 @@
+
+public class Book {
+
+	private String name, publishDate, author;
+	
+	public Book(String nametitle, String pub, String auth){
+		name = nametitle;
+		publishDate = pub;
+		author = auth;
+	}
+}

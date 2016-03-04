@@ -1,0 +1,22 @@
+
+public class library {
+	
+	private String name, publisherDate, author;
+	
+	public library(String author ,book, name ){
+		
+	}
+	
+	
+	public static void main(String[] args) {
+		book object = new book();
+		
+
+	}
+
+}
+class book {
+	private String book, name;
+	
+	
+}

@@ -1,0 +1,25 @@
+
+public class library {
+	
+	private String name, publisherDate, author;
+	
+	public library(String author ,book, name ){
+		
+	}
+	
+	
+	public static void main(String[] args) {
+		book object = new book("Magic", "How to Do it");
+		
+
+	}
+
+}
+class book {
+	private String book, name;
+	 book(String book, String name){
+		 this.book = book;
+		 this.name = name;
+	 }
+	
+}

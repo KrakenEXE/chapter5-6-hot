@@ -1,0 +1,21 @@
+
+public class Driver {
+
+	public static void main(String args[]) {
+		Driver.shape(4, 10);
+		Driver.shape(1, 2, 3); 
+    }
+	
+	public static void shape(double pi, double radius, String shapeName){
+        System.out.println(shapeName+" Area = "+pi*(radius*radius));
+    }
+	
+	public static void shape(int one, int two){
+		System.out.println(one+two);
+    }
+	
+	public static void shape(int one, int two, int three){
+		System.out.println(one+two+three)
+    }
+
+}

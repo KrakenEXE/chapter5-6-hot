@@ -1,0 +1,22 @@
+
+public class Driver {
+
+	public static void main(String args[]) {
+		Driver.shape(Math.PI, 4, "Circle"); 
+        Driver.shape(24, 32); 
+        Driver.shape(Math.PI, 4, 10);
+    }
+	
+	public static void shape(double pi, double radius, String shapeName){
+        System.out.println(shapeName+" Area = "+pi*(radius*radius));
+    }
+	
+	public static void shape(double width, double length){
+		System.out.println("Rectangle Area = "+width*length);
+    }
+	
+	public static void shape(double pi, double radius, double height){
+		System.out.println("Cylinder Area = "+pi*(radius*radius)*height);
+    }
+
+}

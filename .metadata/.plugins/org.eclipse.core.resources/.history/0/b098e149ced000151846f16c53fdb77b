@@ -1,0 +1,28 @@
+import java.io.IOException;
+
+public class Library {
+
+private Book book;
+private String name;
+	
+public Library(Book b,String n)
+{
+	book = b;
+	name = n;
+}
+
+public String toString()
+{
+	return b.
+}
+
+
+	public static void main(String[] args) {
+	
+		Book newbook = new Book("A Million Dollar Title", "Mr Author", "Mr Publisher");
+		
+		System.out.println(newbook.toString());
+		
+	}
+	
+}
